@@ -1,6 +1,6 @@
 class WeekDay {
     public static void main(String[] args) {
-        int day = 8;  // change day number (1-7)
+        int day = 8;
 
         switch(day) {
             case 1: System.out.println("Sunday"); break;
