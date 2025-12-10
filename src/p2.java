@@ -1,13 +1,18 @@
-class Details {
+class Grade {
     public static void main(String[] args) {
-        String name = "Debasmita Srakar";
-        String roll = "2405425";
-        String section = "cse-7";
-        String branch = "cse btech";
+        int mark = 20;   // change the mark to test
 
-        System.out.println("Name: " + name);
-        System.out.println("Roll No: " + roll);
-        System.out.println("Section: " + section);
-        System.out.println("Branch: " + branch);
+        if(mark >= 90)
+            System.out.println("Grade: O");
+        else if(mark >= 80)
+            System.out.println("Grade: E");
+        else if(mark >= 70)
+            System.out.println("Grade: A");
+        else if(mark >= 60)
+            System.out.println("Grade: B");
+        else if(mark >= 50)
+            System.out.println("Grade: C");
+        else
+            System.out.println("Grade: Fail");
     }
 }

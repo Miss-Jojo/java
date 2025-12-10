@@ -1,18 +1,17 @@
-class Grade {
+class WeekDay {
     public static void main(String[] args) {
-        int mark = 20;   // change the mark to test
+        int day = 8;
 
-        if(mark >= 90)
-            System.out.println("Grade: O");
-        else if(mark >= 80)
-            System.out.println("Grade: E");
-        else if(mark >= 70)
-            System.out.println("Grade: A");
-        else if(mark >= 60)
-            System.out.println("Grade: B");
-        else if(mark >= 50)
-            System.out.println("Grade: C");
-        else
-            System.out.println("Grade: Fail");
+        switch(day) {
+            case 1: System.out.println("Sunday"); break;
+            case 2: System.out.println("Monday"); break;
+            case 3: System.out.println("Tuesday"); break;
+            case 4: System.out.println("Wednesday"); break;
+            case 5: System.out.println("Thursday"); break;
+            case 6: System.out.println("Friday"); break;
+            case 7: System.out.println("Saturday"); break;
+            default: System.out.println("Invalid Day Number");
+        }
     }
 }
+
